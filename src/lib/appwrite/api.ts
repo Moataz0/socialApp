@@ -10,6 +10,7 @@ export async function createUserAccount(user: INewUser) {
                 user.name
             )
             return newAccount
+            console.log(newAccount)
         } catch (error) {
             console.log(error);
             return error
